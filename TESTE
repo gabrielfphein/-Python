@@ -1,0 +1,53 @@
+nome = input("informe o seu nome")
+idade = input("informe o seu idade")
+
+print(nome,idade)
+print(nome,idade,end="...\n")
+print(nome,sep=" ")
+
+saldo = 200
+saque = 200
+
+print (saldo == saque)
+print (saldo!= saque)
+print (saldo> saque)
+print (saldo >= saque)
+
+saldo = 500
+
+print(saldo)
+
+saldo = 200
+
+print(saldo)
+
+saldo += 10
+print(saldo)
+saldo -= 5
+print(saldo)
+saldo /= 2
+print(saldo)
+saldo //= 2
+print(saldo)
+saldo *= 10 
+print(saldo)
+
+frutas = ["limao", " uva", ]
+curso = "curso de python"
+print("laranja" in frutas)
+print("limao" not in frutas)
+print("python" in curso)
+
+def sacar(valor: float):
+    saldo = 500
+    if saldo >= valor:
+        print("valor sacado")
+        print("retire o seu dinheiro na boca do caixa.")
+
+print("obrigado por ser nosso cliente, tenha um bom dia")
+
+def depositar(valor):
+    saldo = 500
+    saldo += 500
+
+sacar(1000)
